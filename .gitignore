@@ -1,0 +1,16 @@
+# data and weights stay out of git (the model lives on Hugging Face)
+data/
+checkpoints/
+hf_export/
+*.pt
+*.safetensors
+# training outputs and logs
+mlflow.db
+mlruns/
+*.log
+*.err
+*.old
+train_done.txt
+# python
+__pycache__/
+*.pyc
